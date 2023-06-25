@@ -4,11 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EducationActivity">
+    tools:context=".EducationActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="EducationActivity" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EducationActivity"
+        android:paddingVertical="50dp"/>
+
+    <Button
+        android:id="@+id/buttonHomepageEdu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+
+        android:backgroundTint="@color/blue"
+        android:textColor="@color/white"
+
+        android:text="Go back to home page"
+        />
 
 </LinearLayout>
