@@ -12,9 +12,10 @@
         android:id="@+id/profilePicture"
 
         android:layout_gravity="center"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:paddingVertical="20dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:paddingTop="50dp"
+        android:paddingBottom="20dp"
 
         android:src="@drawable/profile_photo1" />
 
@@ -27,8 +28,8 @@
 
         android:padding="5dp"
         android:textSize="30dp"
-
         android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/design_default_color_on_secondary"
 
         android:text="Abhishek Chakraborty" />
 
@@ -42,8 +43,8 @@
         android:paddingVertical="20dp"
         android:textSize="20dp"
         android:textAlignment="center"
-
         android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/design_default_color_on_secondary"
 
         android:text="Software Engineer 2, Microsoft India R&amp;D\nHyderabad, India" />
 
@@ -62,6 +63,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
 
+            android:backgroundTint="@color/maroon"
+            android:textColor="@color/white"
             android:fontFamily="monospace"
             android:text="Education"
 
@@ -77,6 +80,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
 
+            android:textColor="@color/white"
+            android:backgroundTint="@color/green"
             android:fontFamily="monospace"
             android:text="Skills"
 
@@ -99,6 +104,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
 
+            android:textColor="@color/white"
+            android:backgroundTint="@color/red"
             android:fontFamily="monospace"
             android:text="Projects"
 
@@ -114,6 +121,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
 
+            android:textColor="@color/white"
+            android:backgroundTint="@color/blue"
             android:fontFamily="monospace"
             android:text="Achievements"
 
