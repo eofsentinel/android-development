@@ -36,3 +36,6 @@ google-services.json
 *.class
 */META-INF/*
 *.jar
+
+# Mac
+.DS_Store
